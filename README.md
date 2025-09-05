@@ -1,7 +1,7 @@
 <h1 align="center">Water.css</h1>
 <p align="center">🌊 A drop-in collection of CSS styles to make simple websites just a little nicer</p>
 
-[![Water.css](assets/logo.svg)](https://watercss.kognise.dev/)
+[![Water.css](https://github.com/kognise/water.css/blob/master/assets/logo.svg)](https://watercss.kognise.dev/)
 
 <br>
 
