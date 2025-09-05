@@ -82,7 +82,9 @@ input[type='range'],
 select,
 button,
 textarea {
+  appearance: none;
   -webkit-appearance: none;
+  -moz-appearance: none; 
 }
 
 textarea {

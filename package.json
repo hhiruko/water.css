@@ -1,6 +1,9 @@
 {
   "name": "water.css-fork",
   "version": "2.1.1-fork.0",
+  "scripts": {
+    "build": "npx sass src/water.scss dist/water.min.css --style=compressed"
+  },
   "description": "A fork of water.css (original by Kognise) with custom modifications by hhiruko",
   "author": "hhiruko",
   "contributors": [

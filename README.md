@@ -5,4 +5,16 @@
 
 <br>
 
-<p>Forked and updated to support <code>theme-dark</code> and <code>theme-light</code> class selectors.</p>
+Forked and updated to support `theme-dark` and `theme-light` class selectors to allow manual style switch without swapping to another `CSS` file.
+
+## Build:
+1. Install dependencies:
+    ```
+    npm i
+    ```
+2. To build a minified version, run:
+    ```
+    npm run build
+    ```
+
+Or use prebuilt `dist/water.min.css` file.
