@@ -17,10 +17,14 @@ You can also get it from jsDelivr:
 ```
 
 ### NPM
-Install the package from npm:
-```
-npm i @hhiruko/water.css
-```
+1. Install the package from npm:
+    ```
+    npm i @hhiruko/water.css
+    ```
+2. Import the package:
+   ```
+   import '@hhiruko/water.css';
+   ```
 
 ## Build from source:
 1. Install dependencies:
