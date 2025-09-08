@@ -3,15 +3,13 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import pkg from '../package.json' with { type: 'json' };
 
-console.log(pkg.version)
-
 const src = 'assets/icon.svg';
 const dest = 'docs/favicons';
 const index = 'docs/index.html';
 const manifest = 'docs/favicons/manifest.webmanifest';
 
 const configuration = {
-    path: 'favicons',
+    path: '/water.css/favicons',
     appName: 'Water.css',
     appShortName: 'Water.css',
     appDescription: 'A drop-in collection of CSS styles to make simple websites just a little nicer',
