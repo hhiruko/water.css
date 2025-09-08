@@ -2,7 +2,8 @@
   "name": "@hhiruko/water.css",
   "version": "3.0.2",
   "scripts": {
-    "build": "npx sass src/water.scss dist/water.min.css --style=compressed"
+    "build": "npx sass src/water.scss dist/water.min.css --style=compressed",
+    "generate-favicons": "node scripts/generate-favicons.mjs"
   },
   "description": "A fork of water.css (original by Kognise) with custom modifications by hhiruko",
   "author": "hhiruko",
@@ -35,6 +36,7 @@
     ".": "./dist/water.min.css"
   },
   "devDependencies": {
-    "sass": "^1.92.0"
+    "sass": "^1.92.0",
+    "favicons": "^7.2.0"
   }
 }

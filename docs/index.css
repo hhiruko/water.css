@@ -1,0 +1,18 @@
+.header-container {
+    display: flex; 
+    justify-content: space-between;
+    align-items:last baseline;
+    margin-bottom: 24px;
+}
+
+.header-container * {
+    margin: unset;
+}
+
+#theme-form > label:not(:last-of-type) {
+  margin-right: 1rem;
+}
+
+footer {
+    text-align: right;
+}
