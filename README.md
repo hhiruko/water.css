@@ -13,7 +13,7 @@ Use the prebuilt `dist/water.min.css` file directly in your project. Make sure t
 ## CDN
 You can also get it from jsDelivr:
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hhiruko/water.css@3.0.0/dist/water.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hhiruko/water.css@3.0.2/dist/water.min.css">
 ```
 
 ### NPM
