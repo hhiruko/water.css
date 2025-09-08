@@ -1,6 +1,6 @@
 {
   "name": "@hhiruko/water.css",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "scripts": {
     "build": "npx sass src/water.scss dist/water.min.css --style=compressed"
   },
@@ -32,10 +32,7 @@
   ],
   "style": "dist/water.min.css",
   "exports": {
-    ".": {
-      "style": "./dist/water.min.css",
-      "default": "./dist/water.min.css"
-    }
+    ".": "./dist/water.min.css"
   },
   "devDependencies": {
     "sass": "^1.92.0"
