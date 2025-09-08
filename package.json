@@ -3,6 +3,7 @@
   "version": "3.0.2",
   "scripts": {
     "build": "npx sass src/water.scss dist/water.min.css --style=compressed",
+    "deploy": "npm run generate-favicons",
     "generate-favicons": "node scripts/generate-favicons.mjs"
   },
   "description": "A fork of water.css (original by Kognise) with custom modifications by hhiruko",
