@@ -5,7 +5,7 @@
     "build": "npx sass src/water.scss dist/water.min.css --style=compressed",
     "deploy": "npm run generate-favicons && npm run copy-assets",
     "generate-favicons": "node scripts/generate-favicons.mjs",
-    "copy-assets": "cp -r dist/ docs/dist && cp -r assets/ docs/assets && npm run scripts/fix-asset-path.mjs"
+    "copy-assets": "cp -r dist/ docs/dist && cp -r assets/ docs/assets && node scripts/fix-asset-path.mjs"
   },
   "description": "A fork of water.css (original by Kognise) with custom modifications by hhiruko",
   "author": "hhiruko",
