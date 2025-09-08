@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 
-let html = await fs.readFile('docs/index.html', 'utf-8');
+const index = 'docs/index.html';
+let html = await fs.readFile(index, 'utf-8');
 html = html.replace(/(src|href)=["']\.\.\/([^"']+)["']/g, '$1="$2"');
-await fs.writeFile(indexPath, html);
+await fs.writeFile(index, html);
