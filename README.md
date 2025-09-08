@@ -7,7 +7,22 @@
 
 Forked and updated to support `theme-dark` and `theme-light` class selectors to allow manual style switch without swapping to another `CSS` file.
 
-## Build:
+## Link stylesheet
+Use the prebuilt `dist/water.min.css` file directly in your project. Make sure the corresponding `dist/water.min.css.map` file is in the same folder, so browsers can use it for debugging.
+
+## CDN
+You can also get it from jsDelivr:
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hhiruko/water.css@3.0.0/dist/water.min.css">
+```
+
+### NPM
+Install the package from npm:
+```
+npm i @hhiruko/water.css
+```
+
+## Build from source:
 1. Install dependencies:
     ```
     npm i
@@ -16,11 +31,3 @@ Forked and updated to support `theme-dark` and `theme-light` class selectors to 
     ```
     npm run build
     ```
-
-Or use prebuilt `dist/water.min.css` file.
-
-## CDN:
-You can also get it from jsDelivr:
-```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hhiruko/water.css@2.1.1-fork.0/dist/water.min.css">
-```

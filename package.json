@@ -1,6 +1,6 @@
 {
-  "name": "water.css-fork",
-  "version": "2.1.1-fork.0",
+  "name": "@hhiruko/water.css",
+  "version": "3.0.0",
   "scripts": {
     "build": "npx sass src/water.scss dist/water.min.css --style=compressed"
   },
@@ -26,9 +26,11 @@
   "homepage": "https://github.com/hhiruko/water.css",
   "license": "MIT",
   "files": [
+    "dist/",
     "LICENSE.md",
     "LICENSE_FORK.md"
   ],
+  "style": "dist/water.min.css",
   "devDependencies": {
     "sass": "^1.92.0"
   }
