@@ -57,11 +57,3 @@ let html = await fs.readFile(index, 'utf-8');
 const insertPosition = html.indexOf('</head>');
 html = html.substring(0, insertPosition) + `\n        ${meta.join('\n        ')}\n    ` + html.substring(insertPosition);
 await fs.writeFile(index, html);
-
-let manifestJson = JSON.parse(await fs.readFile(manifest, 'utf-8'));
-for(const [key, value] of manifestJson.icons.entries()){
-    let newValue = value;
-    newValue.src = '/water.css/' + newValue.src.substr(1);
-    manifestJson.icons[key] = newValue;
-}
-await fs.writeFile(manifest, JSON.stringify(manifestJson));
