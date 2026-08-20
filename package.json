@@ -1,6 +1,6 @@
 {
   "name": "@hhiruko/water.css",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "scripts": {
     "build": "npx sass src/water.scss dist/water.min.css --style=compressed",
     "deploy": "npm run generate-favicons && npm run copy-assets",
