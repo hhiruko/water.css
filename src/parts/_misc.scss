@@ -90,7 +90,7 @@ summary:focus {
   text-decoration: underline;
 }
 
-details > :not(summary) {
+details > summary + :not(summary) {
   margin-top: 0;
 }
 
