@@ -1,3 +1,5 @@
+@use 'select-arrow' as *;
+
 $light-theme: (
     'background-body': #fff,
     'background': #efefef,
@@ -17,6 +19,7 @@ $light-theme: (
     'form-text': #1d1d1d,
     'variable': #39a33c,
     'highlight': #ff0,
+    'select-arrow': select-arrow(#161f27),
 );
 
 $dark-theme: (
@@ -38,6 +41,7 @@ $dark-theme: (
     'form-text': #fff,
     'variable': #d941e2,
     'highlight': #efdb43,
+    'select-arrow': select-arrow(#efefef),
 );
 
 @mixin define-theme($theme-map) {
@@ -45,6 +49,5 @@ $dark-theme: (
         --#{$name}: #{$value};
     }
     
-    --select-arrow: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGZpbGw9IiMxNjFmMjciIGhlaWdodD0iNjIuNSIgd2lkdGg9IjExNi45Ij4KICAgIDxwYXRoIGQ9Ik0xMTUuMywxLjYgQzExMy43LDAgMTExLjEsMCAxMDkuNSwxLjYgTDU4LjUsNTIuNyBMNy40LDEuNiBDNS44LDAgMy4yLDAgMS42LDEuNiBDMCwzLjIgMCw1LjggMS42LDcuNCBMNTUuNSw2MS4zIEM1Ni4zLDYyLjEgNTcuMyw2Mi41IDU4LjQsNjIuNSBDNTkuNCw2Mi41IDYwLjUsNjIuMSA2MS4zLDYxLjMgTDExNS4yLDcuNCBDMTE2LjksNS44IDExNi45LDMuMiAxMTUuMywxLjZaIi8+Cjwvc3ZnPg==");
     --animation-duration: 0.1s;
 }
